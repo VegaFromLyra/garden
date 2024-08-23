@@ -9,10 +9,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-4xl font-bold m-5">
           Explore your Garden
         </h1>
         <img src="/banner.jpeg" alt="Garden Banner"/>
+        <button className="btn-primary">
+          Sign In
+        </button>
+        <button className="btn-primary">
+          Sign Up
+        </button>
       </main>
 
       <style jsx>{`
