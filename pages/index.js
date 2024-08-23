@@ -1,16 +1,15 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Garden</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className={styles.title}>
+        <h1 className="text-4xl font-bold">
           Explore your Garden
         </h1>
         <img src="/banner.jpeg" alt="Garden Banner"/>
